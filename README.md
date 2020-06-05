@@ -32,12 +32,12 @@ configuration step.
 #### Requesting for API access to LTA DataMall
 In order request for data from LTA DataMall, you will have to
 [request for API access](https://www.mytransport.sg/content/mytransport/home/dataMall/request-for-api.html) and obtain an *API token*, 
-which will be required in a later configuration step. Please use a valid email as DataMall in order to obtain the API token as well as
+which will be required in a later configuration step. Please use a valid email as DataMall in order to obtain the *API token* as well as
 be notified of any API offline and maintanence periods, which will result in certain features of this chatbot to be unavailable.
 
-### Inserting tokens and keys
-Modify `SGdataBot.py` and replace the placeholder names with your Telegram *bot name*, Telegram *bot token*,
-*API tokens and keys* obtained earlier accordingly.
+### Inserting name and tokens
+Modify `SGdataBot.py` and replace the placeholder names with your Telegram *bot name*, Telegram *bot token*, and LTA DataMall
+*API token* obtained earlier accordingly.
 ```bash
 BOT_NAME = "@YOUR_BOT_NAME"
 BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN
