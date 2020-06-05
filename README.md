@@ -29,12 +29,6 @@ In order to host this project as a Telegram chatbot, you will have to
 and obtain a bot token that is registered to your unique bot name. Your *bot name* and *bot token* will be required in a later 
 configuration step.
 
-#### Requesting for API access to Data.gov.sg
-In order request for data from Data.gov.sg, you will have to
-[request for API access](https://data.gov.sg/developer) and obtain an *API token*, 
-which will be required in a later configuration step. Please subscribe to the mailing list to
-be notified of any API offline and maintanence periods, which will result in certain features of this chatbot to be unavailable.
-
 #### Requesting for API access to LTA DataMall
 In order request for data from LTA DataMall, you will have to
 [request for API access](https://www.mytransport.sg/content/mytransport/home/dataMall/request-for-api.html) and obtain an *API token*, 
@@ -47,7 +41,6 @@ Modify `SGdataBot.py` and replace the placeholder names with your Telegram *bot 
 ```bash
 BOT_NAME = "@YOUR_BOT_NAME"
 BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN
-DATAGOV_API_KEY = "YOUR_DATAGOV_API_KEY"
 DATAMALL_TOKEN = "YOUR_DATAMALL_TOKEN"
 ```
 

@@ -17,7 +17,6 @@ import random
 
 BOT_NAME = "@YOUR_BOT_NAME"
 BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN
-DATAGOV_API_KEY = "YOUR_DATAGOV_API_KEY"
 DATAMALL_TOKEN = "YOUR_DATAMALL_TOKEN"
 
 DATABASE_PATH = "sqlite:///SGdataBot.db"
@@ -26,9 +25,7 @@ LTADATAMALL_STOPS_JSON_PATH = "ltadatamall/stops.json"
 # defined in meters
 BUSSTOP_SEARCH_DIST = 250
 
-data_gov_headers = {
-    'api-key': DATAGOV_API_KEY,
-}
+data_gov_headers = {}
 DATAGOV_URI = "https://api.data.gov.sg/v1/"
 ltadatamall_headers = {
     'AccountKey': DATAMALL_TOKEN,
@@ -520,7 +517,7 @@ def pollTrainServiceAlerts(title_msg):
 
 class SGdataBot(telepot.helper.ChatHandler):
     def __init__(self, *args, **kwargs):
-        super(IAskSkyBot, self).__init__(*args, **kwargs)
+        super(SGdataBot, self).__init__(*args, **kwargs)
         self.state = 'inactive'
         self.state_param = 0
         self.last_msg_id = 0
