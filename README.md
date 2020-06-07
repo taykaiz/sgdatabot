@@ -1,10 +1,10 @@
-# sgdatabot
+# SGdataBot
 Telegram chatbot serving various data and alerts based on Singapore Government public data sources, such as 
 [Data.gov.sg](https://data.gov.sg/) and [LTA DataMall](https://www.mytransport.sg/content/mytransport/home/dataMall.html).
 
 *Tested on Python 2.7 and Python 3.7.*
 
-Comprehensive list of commands available for this project's chatbot is described in [EXAMPLE.md](EXAMPLE.md).
+A comprehensive list of commands accepted by this project's chatbot is described in [EXAMPLE.md](EXAMPLE.md).
 
 ## Installation
 You will need the following Python packages:
