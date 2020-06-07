@@ -4,6 +4,8 @@ Telegram chatbot serving various data and alerts based on Singapore Government p
 
 *Tested on Python 2.7 and Python 3.7.*
 
+Comprehensive list of commands available for this project's chatbot is described in [EXAMPLE.md](EXAMPLE.md).
+
 ## Installation
 You will need the following Python packages:
 * [telepot](https://telepot.readthedocs.io/en/latest/)
