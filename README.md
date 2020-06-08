@@ -84,6 +84,16 @@ supervisorctl reread
 supervisorctl update
 supervisorctl start SGdataBot
 ```
-
-
-
+## Update
+In order to update the latest bus stop information to cached data, 
+you can execute the [ltadatamall_updatecache.py](ltadatamall/ltadatamall_updatecache.py) script.
+```bash
+python3 ltadatamall/ltadatamall_updatecache.py
+```
+In order to update the latest carpark information to cached data, 
+you can execute the [datagov_updatecache.py](datagov/datagov_updatecache.py) script.
+```bash
+python3 datagov/datagov_updatecache.py
+```
+You may wish to [add these scripts as a cron job](https://medium.com/@gavinwiener/how-to-schedule-a-python-script-cron-job-dea6cbf69f4e)
+to execute and update the respective cached data.
